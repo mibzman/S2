@@ -1,0 +1,10 @@
+Bug1:
+with the debugger enabled all it did was tell me that there was a seg fault and print out at least an entire screen of zeros, which told me exactly nothing.  so I just went through and removed obvious typos, but that didn't fix it. then I searched around and found that seg faults are caused by reading memory that isn't there.  So I removed the part of the for loop that called the length of the vector and replaced it with a brute force method.
+
+Bug2:
+this time I remembered to compile it with the debugger so I got to see less zeros all around, but still all the debugger gave me was a segfault error, which I'm guessing is going to be a theme for this class.  I noticed that the != operatior tried to compare the two classes directly, which made me realize that the == ccomperatior should compare the top and bottom seperatly
+
+Bug3:
+This time I tried to set a breakpoint but since main is all one function it wasn't super helpful.  I managed to find that the function didn't return anything which is why I was getting garbage.  I fixed it by adding a return.
+
+Turns out VIM stays running when you get kicked off of the ssh when your computer goes to sleep, so I got to learn about the ps, grep, and  kill -9 commands today, as well as swap fles!  what fun.

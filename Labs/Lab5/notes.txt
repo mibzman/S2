@@ -1,0 +1,19 @@
+q1: The addresses printed are the same because they are created and then destroyed, because they go out of scope immediatly after they are called
+
+q2:now it makes 4 regulars and then destroys them all because they arn't used 
+
+q3:it prints 3 created addresses and then destroys 4, probably has something to do with copying and assiging done in the pair function
+
+q4:default constructor is called, we print from main the exact same thing because we did nothing, then it goes out of scope and is destroyed
+
+q5: 4 Regulars are created by the copy constructor and then destroyed in the right order
+
+q6: all 4 are created, we edit 3 of them, then destroy all 4
+
+q7:assiging is called once, exactly where it should be
+
+q8: nothing suprising here, everythign prints like it should when called.  two are created, one copyed, two destroyed
+
+q9: the copy constructor is in outuput 2 because it is declared as static
+
+q10: I went with passing an address because that is how I see others doing it in examples online
